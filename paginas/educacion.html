@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Luis Dean Barrionuevo Carmona">
+    <meta name="description" content="Hoja de Vida de Luis Dean Barrionuevo Carmona">
+    <title>HV-Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg>
+        <image xlink:href="../imagenes/logo.svg" width="400px" height"400px"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h2>Nombres y Apellidos: Luis Dean Barrionuevo Carmona</h2>
+      <h3>Fecha de Nacimiento: 16/06/1968</h3>
+      <h3>Lugar de Nacimiento: Trujillo, La Libertad, Peru</h3>
+    </header>
+    <nav>
+      <a href="../paginas/experiencia.html">Experiencia  │  </a>
+      <a href="../index.html" target="_blank">Inicio</a>
+    </nav>
+
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1984</td>
+          <td>Colegio Nacional San Miguel</td>
+          <td>Piura</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>1987</td>
+          <td>Instituto Superior Tecnologico del Norte</td>
+          <td>Trujillo</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Universidad Particular del Norte</td>
+          <td>Trujillo</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Agregar Estudios</h2>
+    <form autocomplete="on" name="AgregaEstudios" >
+      <p>Año:
+        <select name="Ano">
+          <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          <option>1996</option>
+        </select>
+      </p>
+
+      <label for="Institucion">Institucion:</label>
+      <input id="Institucion" type="text" name="Institucion" placeholder="Ingrese Institucion donde estudio" size="54px" required>
+
+      <p>Lugar:
+        <textarea name="Lugar" rows="2" cols="60"></textarea>
+      </p>
+      <input type="submit" name="Enviar" value="Enviar">
+    </form>
+    <br>
+    <footer>
+        <p>e-mail: dean.barrionuevo@gmail.com  │ Telefono: +51 978368186  │  Direccion: Av.Mansiche 480 Trujillo-La Libertad-Peru</p>
+    </footer>
+  </body>
+</html>
